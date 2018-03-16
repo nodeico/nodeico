@@ -12,5 +12,7 @@ SVG node.js badges for scoped packages as well!
 [![NPM](https://nodeico.herokuapp.com/@types/jquery.svg)](https://npmjs.com/package/@types/jquery)
 ```
 
+[![Make me one NOW](https://i.imgflip.com/1pis2a.jpg)](https://nodeico.github.io)
+
 
 [nodei.co]: https://github.com/rvagg/nodei.co
