@@ -73,6 +73,6 @@ var server = http.createServer((req, res) => {
   package(name).then((pkg) => {
     res.writeHead(200, {'Content-Type': 'image/svg+xml'});
     res.end(svg(argument(query), pkg));
-  });
+  }, (err) => res.end());
 });
 server.listen(E.PORT||80);
