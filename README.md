@@ -1,2 +1,4 @@
 # node-card
-Display info card image for NPM packages (@scoped).
+
+Display info card image for NPM packages (scoped).
+

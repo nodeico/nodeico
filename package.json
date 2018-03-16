@@ -1,0 +1,27 @@
+{
+  "name": "node-card",
+  "version": "0.0.1",
+  "description": "Display info card image for NPM packages (scoped).",
+  "main": "index.js",
+  "scripts": {
+    "test": "exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/merferry/node-card.git"
+  },
+  "keywords": [
+    "node",
+    "card",
+    "npm",
+    "scoped",
+    "badge",
+    "image"
+  ],
+  "author": "wolfram77@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/merferry/node-card/issues"
+  },
+  "homepage": "https://github.com/merferry/node-card#readme"
+}
