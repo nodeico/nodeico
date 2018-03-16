@@ -71,7 +71,7 @@ var server = http.createServer((req, res) => {
   if(!path.endsWith('.svg')) return res.end();
   var name = path.substring(1, path.length-4);
   package(name).then((pkg) => {
-    res.writeHead(200, {'Content-Type': 'image/svg+xml'});
+    res.writeHead(200, {'Content-Type': 'image/svg+xml', 'Access-Control-Allow-Origin': 'https://nodeico.github.io'});
     res.end(svg(argument(query), pkg));
   }, (err) => res.end());
 });
