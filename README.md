@@ -3,13 +3,13 @@
 SVG node.js badges for scoped packages as well!
 > This is an extension of [nodei.co].
 
-<br>
+
 ```html
 <a href="https://npmjs.com/package/express"><img src="https://nodeico.herokuapp.com/express.svg"></a>
 ```
 [![express](https://nodeico.herokuapp.com/express.svg)](https://npmjs.com/package/express)
 
-<br>
+
 ```markdown
 [![NPM](https://nodeico.herokuapp.com/@types/jquery.svg)](https://npmjs.com/package/@types/jquery)
 ```
