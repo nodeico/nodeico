@@ -1,6 +1,6 @@
 {
   "name": "node-card",
-  "version": "0.0.16",
+  "version": "0.0.17",
   "description": "Display info card image for NPM packages (scoped).",
   "main": "index.js",
   "scripts": {
