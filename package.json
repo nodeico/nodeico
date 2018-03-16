@@ -1,6 +1,6 @@
 {
   "name": "node-card",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Display info card image for NPM packages (scoped).",
   "main": "index.js",
   "scripts": {
@@ -25,6 +25,8 @@
   },
   "homepage": "https://github.com/merferry/node-card#readme",
   "dependencies": {
-    "http-status": "^1.0.1"
+    "http-status": "^1.0.1",
+    "moment": "^2.21.0",
+    "query-string": "^6.0.0"
   }
 }
