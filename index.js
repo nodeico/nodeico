@@ -9,6 +9,11 @@ const fs = require('fs');
 const E = process.env;
 const CARD = fs.readFileSync('card.svg', 'utf8');
 const LOGO = fs.readFileSync('logo.svg', 'utf8');
+const HEADERS = {
+  'Content-Type': 'image/svg+xml',
+  'Access-Control-Allow-Origin': 'https://nodeico.github.io',
+  'Access-Control-Allow-Headers': 'Origin, X-Requested-With, Content-Type, Accept'
+};
 
 function request(pth, mth='GET') {
   console.log(`> ${mth} ${pth}`);
@@ -71,7 +76,7 @@ var server = http.createServer((req, res) => {
   if(!path.endsWith('.svg')) return res.end();
   var name = path.substring(1, path.length-4);
   package(name).then((pkg) => {
-    res.writeHead(200, {'Content-Type': 'image/svg+xml', 'Access-Control-Allow-Origin': 'https://nodeico.github.io'});
+    res.writeHead(200, HEADERS);
     res.end(svg(argument(query), pkg));
   }, (err) => res.end());
 });
