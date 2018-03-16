@@ -1,6 +1,6 @@
 {
   "name": "nodeico",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Display info card image for NPM packages (scoped).",
   "main": "index.js",
   "scripts": {
