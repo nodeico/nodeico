@@ -11,7 +11,7 @@ SVG node.js badges for scoped packages as well!
 
 <br>
 [![@types/jquery](https://nodeico.herokuapp.com/@types/jquery.svg)](https://npmjs.com/package/@types/jquery)
-```markdown
+```text
 [![NPM](https://nodeico.herokuapp.com/@types/jquery.svg)](https://npmjs.com/package/@types/jquery)
 ```
 
