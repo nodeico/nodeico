@@ -71,6 +71,7 @@ function svg(arg, pkg) {
 
 var server = http.createServer((req, res) => {
   console.log(`:> ${req.method} ${req.url}`);
+  if(req.url==='/') { res.writeHead(302, {'Location': 'https://nodeico.github.io'}); return res.end(); }
   var {path, search} = url.parse(req.url.toLowerCase());
   var query = queryString.parse(search);
   if(!path.endsWith('.svg')) return res.end();
