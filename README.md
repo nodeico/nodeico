@@ -19,6 +19,7 @@ SVG node.js badges for scoped packages as well!
 
 
 [[!Merferry](https://i.imgur.com/2clSoS3.jpg)](https://merferry.github.io)
+
 > References: [nodei.co].
 
 [nodei.co]: https://github.com/rvagg/nodei.co
