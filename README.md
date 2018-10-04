@@ -4,10 +4,10 @@ SVG node.js badges for scoped packages as well!
 
 ## markdown
 
-[![@types/jquery](https://nodeico.herokuapp.com/@types/jquery.svg)](https://npmjs.com/package/@types/jquery)
 ```markdown
 [![NPM](https://nodeico.herokuapp.com/@types/jquery.svg)](https://npmjs.com/package/@types/jquery)
 ```
+[![@types/jquery](https://nodeico.herokuapp.com/@types/jquery.svg)](https://npmjs.com/package/@types/jquery)
 
 
 ## html
