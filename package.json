@@ -1,6 +1,6 @@
 {
   "name": "nodeico",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Display info card image for NPM packages (scoped).",
   "main": "index.js",
   "scripts": {
@@ -26,8 +26,8 @@
   },
   "homepage": "https://github.com/nodeico/nodeico#readme",
   "dependencies": {
-    "http-status": "^1.0.1",
-    "moment": "^2.21.0",
-    "query-string": "^6.0.0"
+    "http-status": "^1.2.0",
+    "moment": "^2.22.2",
+    "query-string": "^6.2.0"
   }
 }
