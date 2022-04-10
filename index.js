@@ -15,6 +15,9 @@ const HEADERS = {
   'Access-Control-Allow-Headers': 'Origin, X-Requested-With, Content-Type, Accept'
 };
 
+
+
+
 function request(pth, mth='GET') {
   console.log(`> ${mth} ${pth}`);
   return new Promise((fres, frej) => {
@@ -35,10 +38,12 @@ function request(pth, mth='GET') {
   });
 };
 
+
 function argument(qry) {
   var width = parseFloat(qry.width)||384, height = parseFloat(qry.height)||56, margin = parseFloat(qry.margin)||4;
   return {width, height, margin};
 };
+
 
 function package(nam) {
   return request(`https://unpkg.com/${nam}/package.json`).then((res) => {
@@ -50,10 +55,12 @@ function package(nam) {
   });
 };
 
+
 function fitWidth(org, ins, upd) {
   var iw = 110+(12+ins.length)*12*0.63, uw = 240+upd.length*11*0.63;
   return Math.round(Math.max(org, iw, uw));
 };
+
 
 function svg(arg, pkg) {
   var a = arg, p = pkg, z = CARD;
@@ -68,6 +75,7 @@ function svg(arg, pkg) {
   z = z.replace(/{{p.updated}}/g, p.updated);
   return z.replace(/{{n.logo}}/g, LOGO);
 };
+
 
 var server = http.createServer((req, res) => {
   console.log(`:> ${req.method} ${req.url}`);
