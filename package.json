@@ -1,15 +1,11 @@
 {
   "name": "nodeico",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Display info card image for NPM packages (scoped).",
   "main": "index.js",
   "scripts": {
     "start": "node ./",
     "test": "exit"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/nodeico/nodeico.git"
   },
   "keywords": [
     "node",
@@ -21,13 +17,17 @@
   ],
   "author": "wolfram77@gmail.com",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nodeico/nodeico.git"
+  },
   "bugs": {
     "url": "https://github.com/nodeico/nodeico/issues"
   },
   "homepage": "https://github.com/nodeico/nodeico#readme",
   "dependencies": {
     "http-status": "^1.2.0",
-    "moment": "^2.22.2",
+    "moment": "^2.29.4",
     "query-string": "^6.2.0"
   }
 }

@@ -26,12 +26,14 @@ SVG node.js badges for scoped packages as well!
 
 ## References
 
-- [nodei.co - Node.js badges, that's all : Rod Vagg][nodei.co]
+- [nodei.co - Node.js badges, that's all; Rod Vagg et al.][nodei.co]
 
 <br>
 <br>
 
-[![](https://img.youtube.com/vi/nRSxp5ZKwhQ/maxresdefault.jpg)](https://www.youtube.com/watch?v=nRSxp5ZKwhQ&list=PLGvfHSgImk4aAt3R3XKvUMIv_RFOzSnWz&index=1)
+
+[![](https://img.youtube.com/vi/nRSxp5ZKwhQ/maxresdefault.jpg)](https://www.youtube.com/watch?v=nRSxp5ZKwhQ&list=PLGvfHSgImk4aAt3R3XKvUMIv_RFOzSnWz&index=1)<br>
+[![ORG](https://img.shields.io/badge/org-nodeico-green?logo=Org)](https://nodeico.github.io)
 
 
 [nodei.co]: https://github.com/rvagg/nodei.co
