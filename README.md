@@ -34,6 +34,7 @@ SVG node.js badges for scoped packages as well!
 
 [![](https://img.youtube.com/vi/nRSxp5ZKwhQ/maxresdefault.jpg)](https://www.youtube.com/watch?v=nRSxp5ZKwhQ&list=PLGvfHSgImk4aAt3R3XKvUMIv_RFOzSnWz&index=1)<br>
 [![ORG](https://img.shields.io/badge/org-nodeico-green?logo=Org)](https://nodeico.github.io)
+[![DOI](https://zenodo.org/badge/125540915.svg)](https://zenodo.org/badge/latestdoi/125540915)
 
 
 [nodei.co]: https://github.com/rvagg/nodei.co
